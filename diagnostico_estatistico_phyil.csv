@@ -1,0 +1,73 @@
+﻿Dataset;Clf;Ganho %;Ganho relativo %;DP;DP relativo %;VAR;VAR relativo %;Empates %;p_value;Status
+glass;AdaBoost;12,12;37,61;11,7;44,7;136,82;1998,18;6,7;1,6600426101418066e-05;Significativo ✅
+glass;DecisionTree;14,24;34,54;11,95;39,24;142,88;1539,58;10,0;5,285177191935656e-06;Significativo ✅
+glass;GaussianProcess;10,45;21,43;10,04;21,41;100,76;458,23;10,0;2,7444597977865527e-05;Significativo ✅
+glass;KNN;3,03;6,69;9,27;17,36;85,86;301,29;16,7;0,052386676664029845;Não Significativo (Inconclusivo)
+glass;LogisticRegression;-7,27;-15,94;5,94;18,99;35,26;360,76;6,7;0,9999763947866742;Desvantagem Consistente ❌
+glass;MLP;12,88;37,37;13,18;39,76;173,67;1580,63;13,3;3,4445722652818065e-05;Significativo ✅
+glass;NaiveBayes;-0,76;3,69;11,62;27,92;135,1;779,32;13,3;0,6392317519442414;Não Significativo (Inconclusivo)
+glass;RandomForest;8,79;19,56;10,56;25,11;111,48;630,39;16,7;0,00023782893307763871;Significativo ✅
+glass;SVM;-2,58;-7,08;2,25;6,19;5,07;38,37;43,3;0,9999813100907992;Desvantagem Consistente ❌
+haberman;AdaBoost;0,97;3,47;10,44;18,16;109,02;329,8;10,0;0,4186877206247143;Não Significativo (Inconclusivo)
+haberman;DecisionTree;2,58;5,48;9,9;16,37;98,09;267,94;6,7;0,10855948790991599;Não Significativo (Inconclusivo)
+haberman;GaussianProcess;2,58;3,68;3,85;5,6;14,85;31,35;36,7;0,0007585724321415344;Significativo ✅
+haberman;KNN;1,83;3,25;7,93;11,67;62,91;136,14;6,7;0,11472306268299115;Não Significativo (Inconclusivo)
+haberman;LogisticRegression;0,0;0,0;0,0;0,0;0,0;0,0;100,0;;Equivalência (Muitos Empates)
+haberman;MLP;0,11;0,15;0,58;0,82;0,34;0,67;96,7;0,15865525393145707;Equivalência (Muitos Empates)
+haberman;NaiveBayes;2,15;3,13;3,66;5,47;13,41;29,96;33,3;0,007084784897154821;Significativo ✅
+haberman;RandomForest;5,27;7,99;6,26;9,58;39,18;91,78;10,0;0,0001733096755673334;Significativo ✅
+haberman;SVM;0,86;1,19;2,49;3,32;6,2;11,05;43,3;0,0368191350601513;Significativo ✅
+heart;AdaBoost;1,56;6,02;10,25;22,22;104,99;493,58;6,7;0,23923417500906485;Não Significativo (Inconclusivo)
+heart;DecisionTree;1,78;6,77;9,77;24,92;95,36;621,19;10,0;0,26941220975880775;Não Significativo (Inconclusivo)
+heart;GaussianProcess;-3,44;-5,83;5,87;10,26;34,43;105,35;10,0;0,9974308044194636;Desvantagem Consistente ❌
+heart;KNN;-6,67;-11,37;10,0;19,19;100,0;368,1;6,7;0,9988169143120565;Desvantagem Consistente ❌
+heart;LogisticRegression;-2,56;-4,31;5,82;10,37;33,84;107,56;23,3;0,9823469322674404;Desvantagem Consistente ❌
+heart;MLP;0,33;2,34;8,32;16,61;69,15;275,92;10,0;0,39022148711018223;Não Significativo (Inconclusivo)
+heart;NaiveBayes;9,11;34,43;13,52;53,53;182,91;2865,96;13,3;0,0011883497374939184;Significativo ✅
+heart;RandomForest;-2,44;-3,03;8,9;16,43;79,21;269,97;13,3;0,9200679012260133;Não Significativo (Inconclusivo)
+heart;SVM;-2,22;-3,21;7,57;15,11;57,28;228,19;10,0;0,9814393475824633;Desvantagem Consistente ❌
+iris;AdaBoost;3,78;4,8;7,44;9,84;55,36;96,91;56,7;0,003084407978338434;Significativo ✅
+iris;DecisionTree;4,89;6,47;8,6;11,05;73,88;122,14;43,3;0,0036166047705453045;Significativo ✅
+iris;GaussianProcess;2,22;2,82;6,74;7,8;45,43;60,88;43,3;0,1094680787659057;Não Significativo (Inconclusivo)
+iris;KNN;4,67;5,95;9,61;11,39;92,3;129,7;33,3;0,01326599506079605;Significativo ✅
+iris;LogisticRegression;3,78;5,08;9,06;11,27;82,02;127,01;26,7;0,06606302804581807;Não Significativo (Inconclusivo)
+iris;MLP;2,67;3,5;7,62;9,51;58,07;90,48;40,0;0,08147996266428192;Não Significativo (Inconclusivo)
+iris;NaiveBayes;2,0;2,5;5,48;6,67;30,07;44,48;60,0;0,03666973093680257;Significativo ✅
+iris;RandomForest;2,0;2,65;7,33;8,63;53,78;74,44;43,3;0,25929653272202624;Não Significativo (Inconclusivo)
+iris;SVM;4,0;5,08;7,62;9,37;58,07;87,71;33,3;0,007199065797345954;Significativo ✅
+musk;AdaBoost;1,53;3,23;7,87;12,09;61,9;146,05;6,7;0,18975993049487883;Não Significativo (Inconclusivo)
+musk;DecisionTree;12,85;22,65;9,82;19,85;96,38;393,85;0,0;3,1005615475816283e-06;Significativo ✅
+musk;GaussianProcess;8,89;13,8;7,87;13,19;61,9;174,09;13,3;8,009625064704696e-06;Significativo ✅
+musk;KNN;10,0;16,77;8,08;15,36;65,22;236,03;3,3;3,687695838578336e-06;Significativo ✅
+musk;LogisticRegression;3,54;5,56;5,82;8,58;33,9;73,67;6,7;0,0016910478879436598;Significativo ✅
+musk;MLP;3,06;4,74;7,13;9,71;50,85;94,38;10,0;0,017384434667410107;Significativo ✅
+musk;NaiveBayes;5,42;8,6;8,31;13,0;69,04;168,97;16,7;0,0015941395271495472;Significativo ✅
+musk;RandomForest;-0,07;0,48;6,47;10,21;41,81;104,15;16,7;0,7422261879124286;Não Significativo (Inconclusivo)
+musk;SVM;-7,85;-10,47;6,99;9,35;48,81;87,35;3,3;0,9999879236459477;Desvantagem Consistente ❌
+parkinson;AdaBoost;5,17;6,98;8,31;10,83;69,14;117,25;26,7;0,002265802194113386;Significativo ✅
+parkinson;DecisionTree;4,83;7,24;9,62;13,25;92,47;175,59;16,7;0,007747946129696654;Significativo ✅
+parkinson;GaussianProcess;4,17;6,04;7,31;11,53;53,47;132,97;36,7;0,0010024002364189;Significativo ✅
+parkinson;KNN;6,33;9,58;10,08;15,44;101,56;238,41;10,0;0,0017186327130885094;Significativo ✅
+parkinson;LogisticRegression;6,0;8,17;7,23;9,83;52,33;96,61;40,0;0,00018862661332180025;Significativo ✅
+parkinson;MLP;1,83;2,99;7,47;11,07;55,81;122,62;36,7;0,12375426157191288;Não Significativo (Inconclusivo)
+parkinson;NaiveBayes;-1,83;-1,2;9,44;15,05;89,14;226,42;13,3;0,8248725960951484;Não Significativo (Inconclusivo)
+parkinson;RandomForest;4,83;6,81;9,96;13,43;99,14;180,26;16,7;0,009675685742124218;Significativo ✅
+parkinson;SVM;6,33;9,13;7,95;13,78;63,22;189,92;43,3;0,0001369908430211749;Significativo ✅
+sonar;AdaBoost;7,78;13,81;12,69;20,63;160,97;425,63;6,7;0,0008177303077291847;Significativo ✅
+sonar;DecisionTree;-1,9;0,79;15,73;27,73;247,32;768,82;10,0;0,7868465617001509;Não Significativo (Inconclusivo)
+sonar;GaussianProcess;8,57;13,81;11,3;17,84;127,59;318,1;16,7;0,000607623621666228;Significativo ✅
+sonar;KNN;6,35;13,56;12,8;25,87;163,77;669,32;10,0;0,014467448262045352;Significativo ✅
+sonar;LogisticRegression;10,16;16,88;9,26;17,22;85,76;296,63;26,7;2,358622662695189e-05;Significativo ✅
+sonar;MLP;8,73;13,92;9,77;16,75;95,36;280,49;6,7;4,626258095876601e-05;Significativo ✅
+sonar;NaiveBayes;0,16;1,65;10,89;17,3;118,64;299,45;10,0;0,5814852213883294;Não Significativo (Inconclusivo)
+sonar;RandomForest;13,81;25,38;12,74;26,95;162,28;726,56;3,3;4,4648063694786e-06;Significativo ✅
+sonar;SVM;14,6;26,16;13,01;25,3;169,21;640,05;23,3;2,2055039610715988e-05;Significativo ✅
+wine;AdaBoost;2,22;3,43;10,4;13,14;108,23;172,63;26,7;0,1759769362778032;Não Significativo (Inconclusivo)
+wine;DecisionTree;5,74;8,96;11,78;17,04;138,85;290,48;20,0;0,00932741123919961;Significativo ✅
+wine;GaussianProcess;2,59;2,87;4,24;4,69;17,97;21,97;50,0;0,002264698806207925;Significativo ✅
+wine;KNN;2,41;2,8;4,9;5,4;24,04;29,16;33,3;0,015314658385847718;Significativo ✅
+wine;LogisticRegression;5,74;8,35;10,39;16,86;107,99;284,22;36,7;0,0032391933307700724;Significativo ✅
+wine;MLP;4,44;5,13;5,98;7,15;35,8;51,1;46,7;0,0004322672117530975;Significativo ✅
+wine;NaiveBayes;4,26;7,32;11,89;19,47;141,32;379,12;33,3;0,051299496138974957;Não Significativo (Inconclusivo)
+wine;RandomForest;7,78;9,34;6,67;8,34;44,44;69,59;20,0;1,5233736505643084e-05;Significativo ✅
+wine;SVM;4,44;5,13;5,81;6,8;33,74;46,24;40,0;0,0004585496945014671;Significativo ✅
